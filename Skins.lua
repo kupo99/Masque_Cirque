@@ -28,7 +28,7 @@ local L = Core.Locale
 local API_VERSION = 110000
 
 -- Skin Info
-local Version = "@project-version@"
+local Version = "11.1.0"
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Cirque",
 	"https://www.curseforge.com/wow/addons/masque-cirque",
@@ -100,7 +100,7 @@ MSQ:AddSkin("Cirque", {
 	Shadow = {
 		Texture = [[Interface\AddOns\Masque_Cirque\Textures\Base\Shadow]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0, 0, 0.8},
+		Color = {0, 0, 0, 0.6},
 		BlendMode = "BLEND",
 		DrawLayer = "ARTWORK",
 		DrawLevel = -1,
@@ -562,9 +562,9 @@ MSQ:AddSkin("Cirque - Simple", {
 	-- Icon = Template.Icon,
 	-- SlotIcon = Template.SlotIcon,
 	Shadow = {
-		Texture = [[Interface\AddOns\Masque_Cirque\Textures\Simple\Shadow]],
+		Texture = [[Interface\AddOns\KupoTool\Textures\Masque\MY_TEST_SHADOW.png]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0, 0, 0.8},
+		Color = {0, 0, 0, 0.6},
 		BlendMode = "BLEND",
 		DrawLayer = "ARTWORK",
 		DrawLevel = -1,
@@ -577,7 +577,7 @@ MSQ:AddSkin("Cirque - Simple", {
 		-- SetAllPoints = nil,
 	},
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Cirque\Textures\Simple\Normal]],
+		Texture = [[Interface\AddOns\KupoTool\Textures\Masque\MY_TEST.png]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0.7, 0.7, 0.7, 1},
 		-- EmptyTexture = [[Interface\AddOns\Masque_Cirque\Textures\Simple\Normal]],

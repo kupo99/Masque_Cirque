@@ -2,7 +2,7 @@
 
 ## Author: StormFX
 ## Title: Masque: Cirque
-## Version: @project-version@
+## Version: 11.1.0
 
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Cirque\Textures\Icon
